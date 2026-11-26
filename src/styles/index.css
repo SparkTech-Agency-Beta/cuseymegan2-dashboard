@@ -1,0 +1,12 @@
+/* TODO(figma): swap the font import for the family used in the design. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface-muted font-sans text-ink antialiased;
+  }
+}
